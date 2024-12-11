@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tet and the Zodiac</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Tet and the Zodiac</h1>
+            <nav>
+                <ul>
+                    <a href="index.html">Home</a>
+                    <a href="traditions.html">Traditions and Customs</a>
+                    <a href="food.html">Food and Symbolism</a>
+                    <a href="zodiac.html">Zodiac</a>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <p>The Tết holiday is closely associated with the Vietnamese zodiac, which operates on
+                a 12-year cycle, with each year represented by an animal such as the Rat, Ox, Tiger, Rabbit, Dragon,
+                etc. Each animal is believed to bring certain characteristics, and Tet is celebrated to invite good
+                fortune for the year ahead.
+                The zodiac cycle plays a significant role in shaping hopes and aspirations for the future, with each
+                animal symbolizing different aspects of life.</p>
+            <img src="images/Vietnamese-zodiac.jpg" alt="The 12 zodiac animals of Vietnam">
+        </main>
+
+        <div> <label for="birthYear">Enter your birth year:</label>
+            <input type="number" id="birthYear" min="1925" placeholder="Enter year">
+            <button onclick="getZodiacFortune()">Get Your Tet Fortune</button>
+            <p id="fortuneMessage"></p>
+        </div>
+
+        <footer>
+            <p>&copy; Tet Holiday Blog. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="tet.js"></script>
+    
+</body>
+
+</html>
