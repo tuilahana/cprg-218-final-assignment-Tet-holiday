@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #762310;
+    color: #8B4513;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff0d9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 40px;  
+    border-radius: 20px;  
+    transition: background-color 0.3s; 
+    background-color: #FA862D; 
+    align-content: center;
+    font-weight: bold;
+}
+
+header nav ul a:hover {
+    background-color: #FAC12D; 
+}
+
+h1 {
+    font-family: "Homemade Apple";
+    font-size:2.5rem;
+    color: #2e3a8c;
+    margin: 20px 0;
+}
+
+main {
+    text-align: center; 
+    line-height: 2em;
+}
+
+p{
+    padding: 10px;
+    font-weight: 400;
+}
+
+video{
+    display: block;
+    padding: 20px;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.video-container{
+    display: block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height:0;
+}
+
+.video-container iframe{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left:0;
+}
+
+footer {
+    color:#762310;
+    text-align: center;
+    padding: 10px;
+}
+
+#fortuneMessage{
+    font-weight: bolder;
+    color: #2e3a8c;
+}
+
+
+/* For small devices (320px to 768px) */
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px 0 20px;
+    }
+  
+    .container {
+        padding: 0 40px 0 40px;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For medium devices (769px to 1000px) */
+@media (min-width: 769px) and (max-width: 1000px) {
+    body {
+        padding: 0 40px 0 40px;
+    }
+  
+    .container {
+        padding: 0 60px 0 60px;
+        display: flex;
+        flex-direction: column;
+    }
+  
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* For large devices (1001px to 1600px) */
+@media (min-width: 1001px) and (max-width: 1600px) {
+    body {
+        padding: 0 60px 0 60px;
+    }
+  
+    .container {
+        padding: 0 80px 0 80px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: row;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For extra large devices (1601px to 3200px) */
+@media (min-width: 1601px) and (max-width: 3200px) {
+    body{
+        justify-content: center;
+    }
+    
+    .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 100px 0 100px;
+    }
+  
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+  
+    header nav ul {
+        flex-direction: row;
+    }
+  
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
