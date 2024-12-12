@@ -6,7 +6,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #c0351e;
+    background-color: #a3262a;
     color: #8B4513;
     text-align: center;
 }
@@ -33,18 +33,18 @@ header nav ul a {
     padding: 10px 40px;  
     border-radius: 20px;  
     transition: background-color 0.3s; 
-    background-color: #FA862D; 
+    background-color: #fd8e3a; 
     align-content: center;
     font-weight: 600;
 }
 
 header nav ul a:hover {
-    background-color: #FAC12D; 
+    background-color: #ffd84b; 
     font-weight: 800;
 }
 
 header nav ul a.active {
-    background-color: #c0351e; 
+    background-color: #a3262a; 
     font-weight: 800;
 }
 
@@ -102,7 +102,7 @@ footer {
 }
 
 #fortuneMessage{
-    font-weight: bolder;
+    font-weight: 900;
     color: #2e3a8c;
 }
 
@@ -199,6 +199,7 @@ footer {
 /* For extra large devices (1601px to 3200px) */
 @media (min-width: 1601px) and (max-width: 3200px) {
     body{
+        padding: 0;
         justify-content: center;
     }
     
