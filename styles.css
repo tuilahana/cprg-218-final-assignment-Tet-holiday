@@ -35,11 +35,17 @@ header nav ul a {
     transition: background-color 0.3s; 
     background-color: #FA862D; 
     align-content: center;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 header nav ul a:hover {
     background-color: #FAC12D; 
+    font-weight: 800;
+}
+
+header nav ul a.active{
+    background-color: #762310; 
+    font-weight: 800;
 }
 
 h1 {

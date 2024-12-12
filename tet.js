@@ -27,3 +27,11 @@ function getZodiacFortune() {
 
     document.getElementById('fortuneMessage').textContent = `Your Zodiac Animal: ${zodiac.animal}. ${zodiac.fortune}`;
 }
+
+const navLinks = document.querySelectorAll('#main-nav a');
+
+navLinks.forEach(link => {
+  if (link.href === window.location.href) {
+    link.classList.add('active');
+  }
+});
